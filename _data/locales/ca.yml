@@ -1,11 +1,11 @@
 en:
-  locale_name: English
+  locale_name: Catalan
   nav:
-    about: About
-    contribute: Contribute
+    about: Quant a
+    contribute: Contribueix
   index:
-    lead: Open source software is made by people just like you. Learn how to launch and grow your project.
-    opensourcefriday: It's Friday! Invest a few hours contributing to the software you use and love
+    lead: EL programari de codi obert es fet per persones com tu. Obteniu informació sobre com iniciar i fer cr&eacute;ixer el vostre projecte.
+    opensourcefriday: Es divendres! Invest a few hours contributing to the software you use and love
   article:
     table_of_contents: Table of Contents
     back_to_all_guides: Back to all guides

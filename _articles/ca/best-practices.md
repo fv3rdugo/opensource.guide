@@ -1,6 +1,6 @@
 ---
 lang: ca
-title: Best Practices for Maintainers
+title: Bones pràctiques per Mantenedors
 description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
 class: best-practices
 toc:

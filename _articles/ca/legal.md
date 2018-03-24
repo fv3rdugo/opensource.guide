@@ -4,9 +4,9 @@ title: Aspectes legals del codi obert
 description: Tot el què t'has preguntat sobre la part legal del codi obert.
 class: legal
 toc:
-  why-do-people-care-so-much-about-the-legal-side-of-open-source: "Why do people care so much about the legal side of open source?"
-  are-public-github-projects-open-source: "Are public GitHub projects open source?"
-  just-give-me-the-tldr-on-what-i-need-to-protect-my-project: "Just give me the TL;DR on what I need to protect my project"
+  per-qu&egrave;-la -gent-es-preocupa-tant-sobre-els-aspectes-legals-del-codi-obert: "Per què la gent es preocupa tant sobre els aspectes legals del codi obert?"
+  s&oacute;n-publics-els-projectes-de-codi-obert-de-github: "Són publics els projectes de codi obert de Github?"
+  dona'm-un-resum-sobre-el-que-necessito-per-protegir-el-meu-projecte: "Dona'm un resum sobre el que necessito per protegir el meu projecte"
   which-open-source-license-is-appropriate-for-my-project: "Which open source license is appropriate for my project?"
   what-if-i-want-to-change-the-license-of-my-project: "What if I want to change the license of my project?"
   does-my-project-need-an-additional-contributor-agreement: "Does my project need an additional contributor agreement?"
@@ -24,7 +24,7 @@ Compartir el teu treball creatiu amb el mon pot ser una experiència excitant i 
 
 ## Per què la gent es preocupa tant sobre els aspectes legals del codi obert?
 
-Contents que ho preguntis! Quan realitzeu un treball creatiu (com ara l'escritura, dibuix, o el codi), el treball es troba sota drets d'autor per defecte. Es a dir, la llei assumeix que, com a autor del teu treball, tens poder de decisió sobre el que els altres poden fer amb ell. 
+Bona pregunta! Quan realitzeu un treball creatiu (com ara l'escritura, dibuix, o el codi), el treball es troba sota drets d'autor per defecte. Es a dir, la llei assumeix que, com a autor del teu treball, tens poder de decisió sobre el que els altres poden fer amb ell.
 
 En general, això significa que ningú més pot utilitzar, copiar, distribuir o modificar el teu treball sense correr riscos d'embargaments, ser investigat o demandat.
 
@@ -40,39 +40,39 @@ Quan [creeu un projecte nou](https://help.github.com/articles/creating-a-new-rep
 
 ![Create repository](/assets/images/legal/repo-create-name.png)
 
-**Fer el teu projecte de GitHub públic no és el mateix que llicenciar el vostre projecte.** Els projectes públics estan coberts per les [Condicions del servei de GitHub](https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership), que permet a altres usuaris veure i bifurcar el vostre projecte, però el vostre treball no conté cap permís.
+**Fer el teu projecte de GitHub públic no és el mateix que llicenciar el teu projecte.** Els projectes públics estan coberts per les [Condicions del servei de GitHub](https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership), que permet a altres usuaris veure i bifurcar el teu projecte, però el teu treball no conté cap permís.
 
 Si voleu que altres persones utilitzin, distribueixin, modifiquin o facin aportacions al teu projecte, heu d'incloure una llicència de codi obert. Per exemple, ningú no pot legalment utilitzar cap part del projecte de GitHub en el seu codi, encara que sigui públic, tret que explícitament es donin drets per fer-ho.
 
-## Just give me the TL;DR on what I need to protect my project.
+## Dona'm un resum sobre el que necessito per protegir el meu projecte
 
-You're in luck, because today, open source licenses are standardized and easy to use. You can copy-paste an existing license directly into your project.
+Estas de sort, perquè avui, les llicencies de codi lliure són estàndard i fàcils d'utilitzar. Tu pots fer un copia-enganxa d'una llicència existent directament al teu projecte.
 
-[MIT](https://choosealicense.com/licenses/mit/), [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/), and [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) are the most popular open source licenses, but there are other options to choose from. You can find the full text of these licenses, and instructions on how to use them, on [choosealicense.com](https://choosealicense.com/).
+[MIT](https://choosealicense.com/licenses/mit/), [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/), i [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) són les llicencies de codi obert més populars, però també tens altres opcions per escollir. Pots trobar un text complert sobre aquestes llicencies, i instruccions d'ús en [choosealicense.com](https://choosealicense.com/).
 
-When you create a new project on GitHub, you'll be [asked to add a license](https://help.github.com/articles/open-source-licensing/).
+Quant crees un nou projecte a Github, se't [demanarà afegir una llicència](https://help.github.com/articles/open-source-licensing/).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/benbalter?s=180" class="pquote-avatar" alt="avatar">
-  A standardized license serves as a proxy for those without legal training to know precisely what they can and can't do with the software. Unless absolutely required, avoid custom, modified, or non-standard terms, which will serve as a barrier to downstream use of the agency code.
+  Una llicència estàndard serveix com aproximació per als que no tenen entrenament legal per saber amb precisió el que poden i el que no poden fer amb el programari. A no ser que sigui absolutament necessari, eviteu termes personalitzats, modificats o no estàndard, que serviran de barrera per a l'ús posterior del codi d'agència.
   <p markdown="1" class="pquote-credit">
 — @benbalter, ["Everything a government attorney needs to know about open source software&nbsp;licensing"](https://ben.balter.com/2014/10/08/open-source-licensing-for-government-attorneys/)
   </p>
 </aside>
 
-## Which open source license is appropriate for my project?
+## Quina llicència de codi obert és l'apropiada per al meu projecte?
 
-If you're starting from a blank slate, it's hard to go wrong with the [MIT License](https://choosealicense.com/licenses/mit/). It's short, very easy to understand, and allows anyone to do anything so long as they keep a copy of the license, including your copyright notice. You'll be able to release the project under a different license if you ever need to.
+Si comences des de zero, és difícil equivocar-se a l'escollir la [llicència MIT](https://choosealicense.com/licenses/mit/). És curta, molt fàcil d'entendre, i permet a qualsevol fer el que consideri, sempre i quant mantingui una còpia de la llicència, incloent-hi el teu avís de drets d'autor. Tindras la possibilitat d'alliberar el projecte sota una altre llicència si així ho necessites.
 
-Otherwise, picking the right open source license for your project depends on your objectives.
+Dit d'una altre manera, triar la llicència de codi obert corresponent al teu projecte depèn dels teus objectius.
 
-Your project very likely has (or will have) **dependencies**. For example, if you're open sourcing a Node.js project, you'll probably use libraries from the Node Package Manager (npm). Each of those libraries you depend on will have its own open source license. If each of their licenses is "permissive" (gives the public permission to use, modify, and share, without any condition for downstream licensing), you can use any license you want. Common permissive licenses include MIT, Apache 2.0, ISC, and BSD.
+Probablement el teu projecte tingui (o tindrà) **dependències**. Per exemple, si és un projecte de codi obert de Node.js, és probable que utilitzeu llibreries del gestor de paquets de node (npm). Cadascuna de les llibreries que en depengui tindrà la seva pròpia llicència de codi obert. Si cadascuna de les seves llicències és "permissiva" (dóna permís al públic per utilitzar-la, modificar-la i compartir-la, sense cap condició per a la concessió de llicències aigües avall), podeu utilitzar qualsevol llicència que vulgueu. Les llicències permissives habituals són MIT, Apache 2.0, ISC i BSD.
 
-On the other hand, if any of your dependencies' licenses are "strong copyleft" (also gives public same permissions, subject to condition of using the same license downstream), then your project will have to use the same license. Common strong copyleft licenses include GPLv2, GPLv3, and AGPLv3.
+D'altra banda, si alguna de les llicències de les teves dependències és "copyleft fort" (també dona el mateix permís, subjecte a la condició d'utilitzar la mateixa llicència aigües avall), el teu projecte haurà d'utilitzar la mateixa llicència. Les llicències comuns de copyleft fort inclouen GPLv2, GPLv3 i AGPLv3.
 
-You may also want to consider the **communities** you hope will use and contribute to your project:
+Hauries de considerar també el que les **comunitats** esperen que facis servir per contribuir al teu projecte:
 
-* **Do you want your project to be used as a dependency by other projects?** Probably best to use the most popular license in your relevant community. For example, [MIT](https://choosealicense.com/licenses/mit/) is the most popular license for [npm libraries](https://libraries.io/npm).
+* **Vols que el teu projecte sigui utilitzat com a dependència per a altres projectes?** Probablement la millor opció sigui utilitzar la llicència més popular de la teva comunitat. Per exemple, [MIT](https://choosealicense.com/licenses/mit/) ho és per les [llibreries npm](https://libraries.io/npm).
 * **Do you want your project to appeal to large businesses?** A large business will likely want an express patent license from all contributors. In this case, [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) has you (and them) covered.
 * **Do you want your project to appeal to contributors who do not want their contributions to be used in closed source software?** [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) or (if they also do not wish to contribute to closed source services) [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) will go over well.
 
@@ -162,4 +162,4 @@ Longer term, your legal team can do more to help the company get more from its i
 </aside>
 
 * **Patents:** Your company may wish to join the [Open Invention Network](https://www.openinventionnetwork.com/), a shared defensive patent pool to protect members' use of major open source projects, or explore other [alternative patent licensing](https://www.eff.org/document/hacking-patent-system-2016).
-* **Governance:** Especially if and when it makes sense to move a project to a [legal entity outside of the company](../leadership-and-governance/#do-i-need-a-legal-entity-to-support-my-project).
+* **Governança:** Especially if and when it makes sense to move a project to a [legal entity outside of the company](../leadership-and-governance/#do-i-need-a-legal-entity-to-support-my-project).

@@ -5,7 +5,7 @@ description: Tot el què t'has preguntat sobre la part legal del codi obert.
 class: legal
 toc:
   per-què-la-gent-es-preocupa-tant-sobre-els-aspectes-legals-del-codi-obert: "Per què la gent es preocupa tant sobre els aspectes legals del codi obert?"
-  són-publics-els-projectes-de-codi-obert-de-github?: "Són publics els projectes de codi obert de Github?"
+  els-projectes-públics-de-github-són-de-codi-obert: "Els projectes públics de GitHub són de codi obert?"
   donam-un-resum-sobre-el-que-necessito-per-protegir-el-meu-projecte: "Dona'm un resum sobre el que necessito per protegir el meu projecte"
   quina-llicència-de-codi-obert-és-lapropiada-per-al-meu-projecte: "Quina llicència de codi obert és l'apropiada per al meu projecte?"
   què-passa-si-vull-canviar-la-llicència-del-meu-projecte: "Què passa si vull canviar la llicència del meu projecte?"
@@ -34,7 +34,7 @@ Si no aplica una llicència de codi obert, tothom que contribueixi al teu projec
 
 Finalment, el teu projecte pot tenir dependències amb requisits de llicència que desconeixíeu. La comunitat del teu projecte o les polítiques de contractació també poden requerir que el teu projecte utilitzi llicències de codi obert específiques. Anem a cobrir aquestes situacions a continuació.
 
-## Són publics els projectes de codi obert de Github?
+## Els projectes públics de GitHub són de codi obert?
 
 Quan [creeu un projecte nou](https://help.github.com/articles/creating-a-new-repository/) a GitHub, teniu l'opció de fer el repositori **privat** o **públic**.
 
@@ -84,7 +84,7 @@ Quan crees un nou projecte en GitHub, se't dóna l'opció de seleccionar una lli
 
 La majoria dels projectes no necessiten mai canviar les llicències. Però de vegades les circumstàncies canvien.
 
-Per exemple, a mesura que el teu projecte creix, afegeix dependències o usuaris, o la vostra empresa canvia d'estratègies, alguna de les quals podria requerir o voler una llicència diferent. A més, si heu oblidat llicenciar el teu projecte des del principi, afegir una llicència és el mateix que canviar les llicències. Hi ha tres coses fonamentals a tenir en compte a l'hora d'afegir o canviar la llicència del teu projecte:
+Per exemple, a mesura que el teu projecte creix, afegeixes dependències o usuaris, o la vostra empresa canvia d'estratègies, alguna de les quals podria requerir o voler una llicència diferent. A més, si heu oblidat llicenciar el teu projecte des del principi, afegir una llicència és el mateix que canviar les llicències. Hi ha tres coses fonamentals a tenir en compte a l'hora d'afegir o canviar la llicència del teu projecte:
 
 **És complicat.** Determinar la compatibilitat i el compliment de la llicència i qui té drets d'autor pot arribar a ser complicat i confús molt ràpidament. Si canvieu a una nova llicència compatible per als nous llançaments i les contribucions, és diferent de tornar a llicenciar totes les contribucions existents. Involucri al seu equip legal davant de qualsevol desig de canviar les llicències. Fins i tot si teniu o podeu obtenir el permís dels titulars de drets d'autor del projecte per obtenir un canvi de llicència, consideri l'impacte del canvi en els altres usuaris i col·laboradors del teu projecte. Penseu en un canvi de llicència com a "esdeveniment de governança" per al teu projecte, que probablement funcionarà sense problemes amb comunicacions i consultes clares amb les parts interessades del teu projecte. Més raons per triar i utilitzar una llicència adequada per al teu projecte des de bon començament!.
 

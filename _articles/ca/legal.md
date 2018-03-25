@@ -4,13 +4,13 @@ title: Aspectes legals del codi obert
 description: Tot el què t'has preguntat sobre la part legal del codi obert.
 class: legal
 toc:
-  per-qu&egrave;-la -gent-es-preocupa-tant-sobre-els-aspectes-legals-del-codi-obert: "Per què la gent es preocupa tant sobre els aspectes legals del codi obert?"
-  s&oacute;n-publics-els-projectes-de-codi-obert-de-github: "Són publics els projectes de codi obert de Github?"
-  dona'm-un-resum-sobre-el-que-necessito-per-protegir-el-meu-projecte: "Dona'm un resum sobre el que necessito per protegir el meu projecte"
-  which-open-source-license-is-appropriate-for-my-project: "Which open source license is appropriate for my project?"
-  what-if-i-want-to-change-the-license-of-my-project: "What if I want to change the license of my project?"
-  does-my-project-need-an-additional-contributor-agreement: "Does my project need an additional contributor agreement?"
-  què-ha-de-saber-l'equip-jurídic-de-la-meva-empresa: "Què ha de saber l'equip jurídic de la meva empresa?"
+  per-què-la-gent-es-preocupa-tant-sobre-els-aspectes-legals-del-codi-obert: "Per què la gent es preocupa tant sobre els aspectes legals del codi obert?"
+  són-publics-els-projectes-de-codi-obert-de-github?: "Són publics els projectes de codi obert de Github?"
+  donam-un-resum-sobre-el-que-necessito-per-protegir-el-meu-projecte: "Dona'm un resum sobre el que necessito per protegir el meu projecte"
+  quina-llicència-de-codi-obert-és-lapropiada-per-al-meu-projecte: "Quina llicència de codi obert és l'apropiada per al meu projecte?"
+  què-passa-si-vull-canviar-la-llicència-del-meu-projecte: "Què passa si vull canviar la llicència del meu projecte?"
+  el-meu-projecte-necessita-un-acord-de-collaborador-addicional: "El meu projecte necessita un acord de col·laborador addicional?"
+  què-ha-de-saber-lequip-jurídic-de-la-meva-empresa: "Què ha de saber l'equip jurídic de la meva empresa?"
 order: 10
 image: /assets/images/cards/legal.png
 related:
@@ -34,7 +34,7 @@ Si no aplica una llicència de codi obert, tothom que contribueixi al teu projec
 
 Finalment, el teu projecte pot tenir dependències amb requisits de llicència que desconeixíeu. La comunitat del teu projecte o les polítiques de contractació també poden requerir que el teu projecte utilitzi llicències de codi obert específiques. Anem a cobrir aquestes situacions a continuació.
 
-## Els projectes públics de GitHub són de codi obert?
+## Són publics els projectes de codi obert de Github?
 
 Quan [creeu un projecte nou](https://help.github.com/articles/creating-a-new-repository/) a GitHub, teniu l'opció de fer el repositori **privat** o **públic**.
 
@@ -76,7 +76,7 @@ Hauries de considerar també el que les **comunitats** esperen que facis servir 
 * **Voleu que el teu projecte sigui atractiu per a grans empreses?** Una gran empresa probablement voldrà una llicència de patent expressa de tots els col·laboradors. En aquest cas, [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) et te a tu (i a ells) coberts.
 * **Voleu que el teu projecte atregui col·laboradors que no vulguin que les seves contribucions s'utilitzin en programari de codi tancat?** [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) o (si tampoc volen contribuir a serveis de codi tancat) [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) seria la més apropiada.
 
-La teva **empresa** pot tenir requisits de llicència específics per als seus projectes de codi obert. Per exemple, és possible que requereixi una llicència permisiva perquè l'empresa pugui utilitzar el teu projecte en el producte d'origen tancat de l'empresa. O la teva empresa pot requerir una llicència copyleft forta i un acord de col·laborador addicional (veure més abaix) de manera que només la teva empresa, i ningú més, pot utilitzar el teu projecte en programari de codi tancat. O la seva empresa pot tenir certes necessitats relacionades amb estàndards, responsabilitat social o transparència, qualsevol de les quals podria requerir una estratègia de concessió de llicències particular. Parleu amb el [vostre departament legal de la empresa](#què-ha-de-saber-l'equip-jurídic-de-la-meva-empresa).
+La teva **empresa** pot tenir requisits de llicència específics per als seus projectes de codi obert. Per exemple, és possible que requereixi una llicència permisiva perquè l'empresa pugui utilitzar el teu projecte en el producte d'origen tancat de l'empresa. O la teva empresa pot requerir una llicència copyleft forta i un acord de col·laborador addicional (veure més abaix) de manera que només la teva empresa, i ningú més, pot utilitzar el teu projecte en programari de codi tancat. O la seva empresa pot tenir certes necessitats relacionades amb estàndards, responsabilitat social o transparència, qualsevol de les quals podria requerir una estratègia de concessió de llicències particular. Parleu amb el [teu departament legal de la empresa](#què-ha-de-saber-l'equip-jurídic-de-la-meva-empresa).
 
 Quan crees un nou projecte en GitHub, se't dóna l'opció de seleccionar una llicència. Incloure una de les llicències esmentades anteriorment farà que el projecte GitHub sigui de codi obert. Si voleu veure altres opcions, consulteu [choosealicense.com](https://choosealicense.com) per trobar la llicència adequada per al teu projecte, fins i tot si [no és programari](https://choosealicense.com/non-software/).
 
@@ -98,50 +98,51 @@ Com a alternativa, pots tenir col·laboradors que estiguin d'acord amb anteriori
 
 Probablement no. Per a la gran majoria de projectes de codi obert, una llicència de codi obert implícitament serveix com a llicència d'entrada (de contribuents) i de sortida (a altres col·laboradors i usuaris). Si el teu projecte està en GitHub, les condicions del servei de GitHub fan que "entrant=sortint" sigui el [explícit per defecte](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license).
 
-An additional contributor agreement -- often called a Contributor License Agreement (CLA) -- can create administrative work for project maintainers. How much work an agreement adds depends on the project and implementation. A simple agreement might require that contributors confirm, with a click, that they have the rights necessary to contribute under the project open source license. A more complicated agreement might require legal review and sign-off from contributors' employers.
+Un acord de col·laborador addicional -- sovint anomenat Acord de llicència de contribuent (CLA) -- pot crear treballs administratius per als mantenidors del projecte. La quantitat de treball que un acord afegeix depèn del projecte i la implementació. Un acord simple podria requerir que els contribuents confirmin, amb un clic, que tenen els drets necessaris per a contribuir amb la llicència de codi obert del projecte. Un acord més complicat pot requerir revisió legal i aprovació dels empresaris dels contribuents.
 
-Also, by adding "paperwork" that some believe is unnecessary, hard to understand, or unfair (when the agreement recipient gets more rights than contributors or the public do via the project's open source license), an additional contributor agreement may be perceived as unfriendly to the project's community.
+A més, afegint "tràmits" que alguns creuen que són innecessaris, difícils d'entendre o injust (quan el destinatari de l'acord obté més drets que els contribuents o el públic ho fa a través de la llicència de codi obert del projecte), un acord de contribuent addicional es pot percebre poc amigable per la comunitat del projecte.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/bcantrill?s=180" class="pquote-avatar" alt="avatar">
-    We have eliminated the CLA for Node.js. Doing this lowers the barrier to entry for Node.js contributors thereby broadening the contributor base.
+    Hem eliminat el CLA per a Node.js. Fent això, es redueix la barrera d'entrada per als contribuents de Node.js, ampliant així la base de col·laboradors.
   <p markdown="1" class="pquote-credit">
 — @bcantrill, ["Broadening Node.js Contributions"](https://www.joyent.com/blog/broadening-node-js-contributions)
   </p>
 </aside>
 
-Some situations where you may want to consider an additional contributor agreement for your project include:
+Algunes de les situacions en què potser vols considerar un acord de col·laborador addicional per al teu projecte inclouen:
 
-* Your lawyers want all contributors to expressly accept (_sign_, online or offline) contribution terms, perhaps because they feel the open source license itself is not enough (even though it is!). If this is the only concern, a contributor agreement that affirms the project's open source license should be enough. The [jQuery Individual Contributor License Agreement](https://contribute.jquery.org/CLA/) is a good example of a lightweight additional contributor agreement. For some projects, a [Developer Certificate of Origin](https://github.com/probot/dco) can be an alternative.
-* Your project uses an open source license that does not include an express patent grant (such as MIT), and you need a patent grant from all contributors, some of whom may work for companies with large patent portfolios that could be used to target you or the project's other contributors and users. The [Apache Individual Contributor License Agreement](https://www.apache.org/licenses/icla.pdf) is a commonly used additional contributor agreement that has a patent grant mirroring the one found in the Apache License 2.0.
-* Your project is under a copyleft license, but you also need to distribute a proprietary version of the project. You'll need every contributor to assign copyright to you or grant you (but not the public) a permissive license. The [MongoDB Contributor Agreement](https://www.mongodb.com/legal/contributor-agreement) is an example this type of agreement.
-* You think your project might need to change licenses over its lifetime and want contributors to agree in advance to such changes.
+* Els teus advocats volen que tots els contribuents acceptin expressament (_signatura_, en línia o fora de línia) els termes de contribució, potser perquè senten que la llicència de codi obert no és suficient (encara que ho sigui!). Si aquesta és l'única preocupació, un acord de col·laborador que afirmi la llicència de codi obert del projecte hauria de ser suficient. L'[Acord de llicència de contribuïdor individual jQuery](https://contribute.jquery.org/CLA/) és un bon exemple d'un acord de contribució addicional lleuger. Per a alguns projectes, un [Certificat d'origen del desenvolupadors](https://github.com/probot/dco) pot ser una alternativa.
 
-If you do need to use an additional contributor agreement with your project, consider using an integration such as [CLA assistant](https://github.com/cla-assistant/cla-assistant) to minimize contributor distraction.
+* El teu projecte utilitza una llicència de codi obert que no inclou una concessió de patent expressa (com ara MIT), i necessiteu una concessió de patent de tots els contribuents, alguns dels quals poden treballar per a empreses amb grans carteres de patents que podrien utilitzar-se per orientar-te o els altres col·laboradors i usuaris del projecte. EL'[Acord de llicència de contribuïdor individual d'Apache](https://www.apache.org/licenses/icla.pdf) és un acord de contribuïdor addicional que s'utilitza habitualment que té una concessió de patents que reflecteix el que es troba en la llicència Apache 2.0.
+* El teu projecte està sota una llicència de copyleft, però també heu de distribuir una versió propietària del projecte. Necessitaràs que tots els contribuents t'assignin els drets d'autor o que et concedeixin (però no al públic) una llicència permissiva. L'[Acord de col·laborador de MongoDB](https://www.mongodb.com/legal/contributor-agreement) és un exemple d'aquest tipus d'acord.
+* Creus que és possible que el teu projecte canviï de llicències al llarg de la seva vida i que els contribuents estiguin d'acord amb anticipació a aquests canvis.
 
-## What does my company's legal team need to know?
+Si necessiteu utilitzar un acord de col·laborador addicional per al teu projecte, considera utilitzar una integració com ara [assistent de CLA](https://github.com/cla-assistant/cla-assistant) per minimitzar la distracció dels contribuents.
 
-If you're releasing an open source project as a company employee, first, your legal team should know that you're open sourcing a project.
+## Què ha de saber l'equip jurídic de la meva empresa?
 
-For better or worse, consider letting them know even if it's a personal project. You probably have an "employee IP agreement" with your company that gives them some control of your projects, especially if they are at all related to the company's business or you use any company resources to develop the project. Your company _should_ easily give you permission, and maybe already has through an employee-friendly IP agreement or a company policy. If not, you can negotiate (for example, explain that your project serves the company's professional learning and development objectives for you), or avoid working on your project until you find a better company.
+Si publiques un projecte de codi obert com a empleat d'una empresa, primer, el teu equip jurídic hauria de saber que vols obrir un publicar un projecte de codi obert.
 
-**If you're open sourcing a project for your company,** then definitely let them know. Your legal team probably already has policies for what open source license (and maybe additional contributor agreement) to use based on the company's business requirements and expertise around ensuring your project complies with the licenses of its dependencies. If not, you and they are in luck! Your legal team should be eager to work with you to figure this stuff out. Some things to think about:
+Per bé o per mal, considereu fer-los saber fins i tot si és un projecte personal. Probablement tingui un "acord de Propietat Intelectual (IP) de l'empleat" amb la teva empresa que els proporcioni un control sobre els teus projectes, especialment si estan relacionats amb el negoci de la companyia o si utilitza recursos de la companyia per desenvolupar el projecte. La teva empresa _hauria_ de donar-te permís fàcilment, i potser ja ho ha fet a través d'un acord de propietat intel·lectual favorable a l'empleat o una política d'empresa. Si no, podeu negociar (per exemple, explica que el teu projecte serveix els objectius professionals de l'aprenentatge i desenvolupament professional de la teva empresa), o bé evita treballar en el teu projecte fins que trobis una empresa millor.
 
-* **Third party material:** Does your project have dependencies created by others or otherwise include or use others' code? If these are open source, you'll need to comply with the materials' open source licenses. That starts with choosing a license that works with the third party open source licenses (see above). If your project modifies or distributes third party open source material, then your legal team will also want to know that you're meeting other conditions of the third party open source licenses such as retaining copyright notices. If your project uses others' code that doesn't have an open source license, you'll probably have to ask the third party maintainers to [add an open source license](https://choosealicense.com/no-license/#for-users), and if you can't get one, stop using their code in your project.
+**Si esteu treballant en un projecte de codi obert per a la teva empresa** llavors definitivament fes-ho saber. El teu equip legal probablement ja té polítiques sobre quina és la llicència de codi obert (i potser un acord de contribuent addicional) que s'utilitzarà en funció dels requisits comercials de l'empresa i la seva experiència per garantir que el teu projecte compleixi les llicències de les seves dependències. Si no, tant tu com ells esteu de sort! El teu equip jurídic hauria d'estar ansiós per treballar amb vosaltres per esbrinar aquestes coses. Alguns aspectes a considerar:
 
-* **Trade secrets:** Consider whether there is anything in the project that the company does not want to make available to the general public. If so, you could open source the rest of your project, after extracting the material you want to keep private.
+* **Material de tercers:** El teu projecte té dependències creades per altres o incloeu o utilitza el codi d'un altre? Si es tracta de codi obert, haurà de complir les llicències de codi obert dels materials. Això comença amb l'elecció d'una llicència que funciona amb les llicències de codi obert de tercers (vegeu més amunt). Si el teu projecte modifica o distribueix material de codi obert de tercers, el teu equip legal també voldrà saber que compleix altres condicions de les llicències de codi obert de tercers, com ara retenir avisos de drets d'autor. Si el teu projecte utilitza el codi d'altres que no té una llicència de codi obert, és probable que hagueu de demanar als mantenidors de tercers que [afegeixin una llicència de codi obert](https://choosealicense.com/no-license/#for-users), i si no podeu obtenir-ne una, deixeu d'utilitzar el codi en el teu projecte.
 
-* **Patents:** Is your company applying for a patent of which open sourcing your project would constitute [public disclosure](https://en.wikipedia.org/wiki/Public_disclosure)? Sadly, you might be asked to wait (or maybe the company will reconsider the wisdom of the application). If you're expecting contributions to your project from employees of companies with large patent portfolios, your legal team may want you to use a license with an express patent grant from contributors (such as Apache 2.0 or GPLv3), or an additional contributor agreement (see above).
+* **Secrets comercials:** Considera si hi ha alguna cosa al projecte que l'empresa no vulgui posar a disposició del públic en general. Si és així, podríeu fer de codi obert la resta del teu projecte, després d'extreure el material que voleu mantenir privat.
 
-* **Trademarks:** Double check that your project's name [does not conflict with any existing trademarks](../starting-a-project/#avoiding-name-conflicts). If you use your own company trademarks in the project, check that it does not cause any conflicts. [FOSSmarks](http://fossmarks.org/) is a practical guide to understanding trademarks in the context of free and open source projects.
+* **Patents:** Esta la teva empresa sol·licitant una patent, i alliberar el teu codi font constituexi [divulgació pública](https://en.wikipedia.org/wiki/Public_disclosure)? Lamentablement, se't demanarà que esperis (o potser l'empresa reconsiderarà la saviesa de l'aplicació). Si esperes obtenir contribucions al teu projecte d'empleats d'empreses amb grans carteres de patents, és possible que el teu equip legal us demani que utilitzeu una llicència amb una concessió de patent expressa dels contribuents (com ara Apache 2.0 o GPLv3), o un acord de contribuent addicional ( Vegeu més amunt).
 
-* **Privacy:** Does your project collect data on users? "Phone home" to company servers? Your legal team can help you comply with company policies and external regulations.
+* **Marques comercials:** Comproveu que el nom del teu projecte [no entra en conflicte amb cap marca comercial existent](../starting-a-project/#evitant-conflictes-amb-els-noms). Si utilitzeu marques comercials pròpies de la teva empresa, comproveu que no provoqui cap conflicte. [FOSSmarks](http://fossmarks.org/) és una guia pràctica per comprendre les marques comercials en el context de projectes de codi obert i lliure.
 
-If you're releasing your company's first open source project, the above is more than enough to get through (but don't worry, most projects shouldn't raise any major concerns).
+* **Privacitat**: el teu projecte recopila dades dels usuaris? "Telèfon particular" en els servidors de la empresa? El teu equip legal us pot ajudar a complir amb les polítiques de l'empresa i amb les normatives externes.
 
-Longer term, your legal team can do more to help the company get more from its involvement in open source, and stay safe:
+Si publiques el primer projecte de codi obert de la teva empresa, amb tot l'exposat anteriorment és més que suficient per aconseguir-ho (però no et preocupis, la majoria dels projectes no t'haurien de plantejar cap problema important).
 
-* **Employee contribution policies:** Consider developing a corporate policy that specifies how your employees contribute to open source projects. A clear policy will reduce confusion among your employees and help them contribute to open source projects in the company's best interest, whether as part of their jobs or in their free time. A good example is Rackspace's [Model IP and Open Source Contribution Policy](https://processmechanics.com/2015/07/22/a-model-ip-and-open-source-contribution-policy/).
+A més llarg termini, el teu equip legal pot fer més per ajudar a l'empresa a obtenir més de la seva participació en codi obert i mantenir-se segur:
+
+* **Polítiques de contribucions d'empleats:** Considereu desenvolupar una política corporativa que especifiqui com els vostres empleats contribueixen a projectes de codi obert. Una política clara reduirà la confusió entre els vostres empleats i els ajudarà a contribuir amb projectes de codi obert en el millor interès de la companyia, ja sigui en el lloc de treball o en el seu temps lliure. Un bon exemple és el [Model PI i la política de contribucions de codi obert de Rackspace](https://processmechanics.com/2015/07/22/a-model-ip-and-open-source-contribution-policy/).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/vanl?s=180" class="pquote-avatar" alt="avatar">

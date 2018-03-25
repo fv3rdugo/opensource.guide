@@ -4,7 +4,7 @@ ca:
     about: Quant a
     contribute: Contribueix
   index:
-    lead: EL programari de codi obert es fet per persones com tu. Obteniu informació sobre com iniciar i fer cr&eacute;ixer el vostre projecte.
+    lead: EL programari de codi obert es fet per persones com tu. Aprén com començar i fer crèixer el teu projecte.
     opensourcefriday: Es divendres! Inverteix unes hores contribuint al programari que utilitzeu i estimeu.
   article:
     table_of_contents: Taula de Continguts
@@ -12,12 +12,12 @@ ca:
     related_guides: Guies relacionades
   footer:
     contribute:
-      heading: Contribuir
+      heading: Contribueix
       description: Tens alguna suggerència? Aquest contingut és de codi obert. Ajudan's a millorar-ho.
       button: Contribuir
     subscribe:
-      heading: Estar en contacte
-      description: Be the first to hear about GitHub's latest open source tips and resources.
+      heading: Estigues en contacte
+      description: Sigues el primer a sentir els últims consells i recursos sobre codi obert de GitHub.
       label: Correu electrònic
       button: Subscriure's
     byline:

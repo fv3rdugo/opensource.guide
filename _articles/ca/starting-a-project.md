@@ -234,7 +234,7 @@ If you're building upon an existing project, using their name as a prefix can he
 
 Consider clarity above all. Puns are fun, but remember that some jokes might not translate to other cultures or people with different experiences from you. Some of your potential users might be company employees: you don't want to make them uncomfortable when they have to explain your project at work!
 
-### Avoiding name conflicts
+### Evitant conflictes amb els noms
 
 [Check for open source projects with a similar name](http://ivantomic.com/projects/ospnc/), especially if you share the same language or ecosystem. If your name overlaps with a popular existing project, you might confuse your audience.
 

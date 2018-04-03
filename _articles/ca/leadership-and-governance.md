@@ -1,6 +1,6 @@
 ---
 lang: ca
-title: Leadership and Governance
+title: Lideratge i Governança
 description: Growing open source projects can benefit from formal rules for making decisions.
 class: leadership
 toc:

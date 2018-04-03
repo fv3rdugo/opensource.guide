@@ -1,14 +1,14 @@
 ---
-lang: en
-title: Open Source Metrics
-description: Make informed decisions to help your open source project thrive by measuring and tracking its success.
+lang: ca
+title: Mètriques de codi obert
+description: Prendre decisions informades per ajudar a que el vostre projecte de codi obert prosperi mesurant i seguint el seu èxit.
 class: metrics
 toc:
-  why-measure-anything: "Why measure anything?"
-  discovery: "Discovery"
-  usage: "Usage"
-  retention: "Retention"
-  maintainer-activity: "Maintainer activity"
+  per-què-mesurar-alguna-cosa: "Per què mesurar alguna cosa?"
+  descobriment: "Descobriment"
+  Ús: "Ús"
+  retenció: "Retenció"
+  Activitat-del-mantenidor: "Activitat del mantenidor"
 order: 9
 image: /assets/images/cards/metrics.png
 related:
@@ -16,107 +16,106 @@ related:
   - best-practices
 ---
 
-## Why measure anything?
+## Per què mesurar alguna cosa?
 
-Data, when used wisely, can help you make better decisions as an open source maintainer.
+Les dades, emprades intel·ligentment, poden ajudar-te a prendre millors decisions.
 
-With more information, you can:
+Amb més informació, pots:
 
-* Understand how users respond to a new feature
-* Figure out where new users come from
-* Identify, and decide whether to support, an outlier use case or functionality
-* Quantify your project's popularity
-* Understand how your project is used
-* Raise money through sponsorships and grants
+* Entendre com els usuaris responen a una nova característica
+* Conèixer d'on provenen els nous usuaris
+* Identificar i decidir si vols donar suport a un cas d'ús o a una funcionalitat
+* Quantificar la popularitat del projecte
+* Entendre com s'utilitza el projecte
+* Guanyar diners mitjançant publicitat, donacions o subvencions
 
-For example, [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Analytics.md) finds that Google Analytics helps them prioritize work:
+Per exemple, [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Analytics.md) va descobrir que Google Analytics els ajuda a prioritzar la feina:
 
-> Homebrew is provided free of charge and run entirely by volunteers in their spare time. As a result, we do not have the resources to do detailed user studies of Homebrew users to decide on how best to design future features and prioritise current work. Anonymous aggregate user analytics allow us to prioritise fixes and features based on how, where and when people use Homebrew.
+> Homebrew es gratuït i està dirigit íntegrament per voluntaris en el seu temps lliure. Com a resultat, no tenim els recursos necessaris per fer estudis detallats dels usuaris d'Homebrew, per decidir sobre com dissenyar futures funcions i prioritzar la feina actual. L'anàlisi dels usuaris anònims ens permeten prioritzar les correccions i les funcions segons la manera com, on i quan la gent fa servir Homebrew.
 
-Popularity isn't everything. Everybody gets into open source for different reasons. If your goal as an open source maintainer is to show off your work, be transparent about your code, or just have fun, metrics may not be important to you.
+La popularitat no ho és tot. Tothom participa en el codi obert per diferents motius. Si l'objectiu com a mantenidor de codi obert és mostrar el teu treball, donar transparència del codi o simplement ho fas per diversió, és possible que les mètriques no siguin importants.
 
-If you _are_ interested in understanding your project on a deeper level, read on for ways to analyze your project's activity.
+Si _estas_ interessat a comprendre el projecte a un nivell més profund, continua llegint sobre les formes d'analitzar l'activitat del projecte.
 
-## Discovery
+## Descobriment
 
-Before anybody can use or contribute back to your project, they need to know it exists. Ask yourself: _are people finding this project?_
+Abans que algú pugui utilitzar o contribuir en el projecte, potser necessitin conèixer abans la seva existència. Pregunta't: _està la gent trobant aquest projecte?_
 
 ![Traffic graph](/assets/images/metrics/repo_traffic_graphs_tooltip.png)
 
-If your project is hosted on GitHub, [you can view](https://help.github.com/articles/about-repository-graphs/#traffic) how many people land on your project and where they come from. From your project's page, click "Insights", then "Traffic". On this page, you can see:
+Si el projecte està allotjat a GitHub, [pots veure](https://help.github.com/articles/about-repository-graphs/#traffic) quantes persones aterren al projecte i d'on provenen. Des de la pàgina del projecte, feu clic a "Insights" i "Traffic". En aquesta pàgina, podeu veure:
 
-* **Total page views:** Tells you how many times your project was viewed
+* **Total pàgines visualitzades:** Us indica quantes vegades s'ha vist el projecte
+* **Total visitants únics:** Us indica quantes persones han vist el projecte
 
-* **Total unique visitors:** Tells you how many people viewed your project
+* **Llocs de referència:** Us indica d'on provenen els visitants. Aquesta mètrica et pot ajudar a saber quin és el teu públic i si els esforços de promoció estan funcionant.
 
-* **Referring sites:** Tells you where visitors came from. This metric can help you figure out where to reach your audience and whether your promotion efforts are working.
+* **Contingut popular:** Us indica quines parts del projecte són més visitades, desglossat per vistes de pàgines i visitants únics.
 
-* **Popular content:** Tells you where visitors go on your project, broken down by page views and unique visitors.
+[Les estrelles de GitHub](https://help.github.com/articles/about-stars/) també poden ajudar a proporcionar una mesura de popularitat. Tot i que les estrelles de GitHub no es correlacionen necessàriament amb les descàrregues i l'ús, si que mostren quantes persones estan prenent nota del treball.
 
-[GitHub stars](https://help.github.com/articles/about-stars/) can also help provide a baseline measure of popularity. While GitHub stars don't necessarily correlate to downloads and usage, they can tell you how many people are taking notice of your work.
+Potser també vulguis [rastrejar com et descobreixen des de llocs específics](https://opensource.com/business/16/6/pirate-metrics): per exemple, Google PageRank, t'ofereix el trànsit que fa referència al lloc web del projecte o referències d'altres projectes o llocs web de codi obert.
 
-You may also want to [track discoverability in specific places](https://opensource.com/business/16/6/pirate-metrics): for example, Google PageRank, referral traffic from your project's website, or referrals from other open source projects or websites.
+## Ús
 
-## Usage
+La gent està trobant el projecte en aquesta cosa boja i salvatge que anomenem Internet. 
+L'ideal seria que quan vegin el projecte, se sentissin obligades a fer alguna cosa. La segona pregunta que ens farem serà: _està la gent utilitzant aquest projecte?_
 
-People are finding your project on this wild and crazy thing we call the internet. Ideally, when they see your project, they'll feel compelled to do something. The second question you'll want to ask is: _are people using this project?_
+Si fas servir un gestor de paquets, com ara npm o Rubygems.org per distribuir el projecte, potser voldras rastrejar les descarregues.
 
-If you use a package manager, such as npm or RubyGems.org, to distribute your project, you may be able to track your project's downloads.
+Cada gestor de paquets pot utilitzar una definició lleugerament diferent de "descarrega", i les descarregues no necessàriament es correlacionen amb les instal·lacions o l'ús, però proporcionen una base de comparació. Intenta fer servir [Libraries.io](https://libraries.io/) per fer un seguiment de les estadístiques d'ús als gestors de paquets més populars.
 
-Each package manager may use a slightly different definition of "download", and downloads do not necessarily correlate to installs or use, but it provides some baseline for comparison. Try using [Libraries.io](https://libraries.io/) to track usage statistics across many popular package managers.
-
-If your project is on GitHub, navigate again to the "Traffic" page. You can use the [clone graph](https://github.com/blog/1873-clone-graphs) to see how many times your project has been cloned on a given day, broken down by total clones and unique cloners.
-
+Si el projecte está a GitHub, navega novament per la pàgina "Traffic". Pots fer servir [clone graph](https://github.com/blog/1873-clone-graphs) per veure quantes vegades s'ha clonat el teu projecte en un dia determinat, desglossat per clons totals i clons únics.
 ![Clone graph](/assets/images/metrics/clone_graph.png)
 
-If usage is low compared to the number of people discovering your project, there are two issues to consider. Either:
+Si l'ús és baix en comparació amb el nombre de persones que descobreixen el projecte, cal tenir en compte dos problemes. O bé:
 
-* Your project isn't successfully converting your audience, or
-* You're attracting the wrong audience
+* El projecte no està convertint el vostre públic amb èxit, o bé
+* Atreu el públic equivocat
 
-For example, if your project lands on the front page of Hacker News, you'll probably see a spike in discovery (traffic), but a lower conversion rate, because you're reaching everyone on Hacker News. If your Ruby project is featured at a Ruby conference, however, you're more likely to see a high conversion rate from a targeted audience.
+Per exemple, si el projecte es troba a la pàgina principal de Hacker News, és probable que vegem un augment del descobriment (trànsit), però un percentatge de conversió inferior, ja que arribeu a tothom de Hacker News. Si el projecte de Ruby apareix en una conferència de Ruby, però, és més probable que vegem un alt percentatge de conversions d'un públic objectiu.
 
-Try to figure out where your audience is coming from and ask others for feedback on your project page to figure out which of these two issues you're facing.
+Intenta esbrinar d'on prové el teu públic i demana-li als altres informació sobre la pàgina del projecte per esbrinar a quins d'aquests dos problemes t'enfrontes.
 
-Once you know that people are using your project, you might want to try to figure out what they are doing with it. Are they building on it by forking your code and adding features? Are they using it for science or business?
+Una vegada sàpigues que la gent està utilitzant el projecte, és possible que vulguis esbrinar què estan fent amb ell. Fan un "fork" del codi i afegeixen funcionalitats? L'estan emprant per investigació o per fer negoci?
 
-## Retention
+## Retenció
 
-People are finding your project and they're using it. The next question you'll want to ask yourself is: _are people contributing back to this project?_
+La gent està trobant el projecte i l'està fent servir. La següent pregunta que et faràs serà: _està la gent contribuint al projecte?_
 
-It's never too early to start thinking about contributors. Without other people pitching in, you risk putting yourself into an unhealthy situation where your project is _popular_ (many people use it) but not _supported_ (not enough maintainer time to meet demand).
+Mai és massa d'hora per començar a pensar en els contribuents. Sense altres persones col·laborant, es corre el risc que el projecte sigui _popular_ (moltes persones l'utilitzen) però no _recolzat_ (no hi ha prou temps per mantenir el projecte i satisfer la demanda).
 
-Retention also requires an [inflow of new contributors](http://blog.abigailcabunoc.com/increasing-developer-engagement-at-mozilla-science-learning-advocacy#contributor-pathways_2), as previously active contributors will eventually move on to other things.
+La retenció també requereix una [entrada de nous contribuents](http://blog.abigailcabunoc.com/increasing-developer-engagement-at-mozilla-science-learning-advocacy#contributor-pathways_2), ja que aquests poden, en algun moment, passar a fer altres coses.
 
-Examples of community metrics that you may want to regularly track include:
+Alguns exemples de mètriques de la comunitat que voleu fer seguiment regularment inclouen:
 
-* **Total contributor count and number of commits per contributor:** Tells you how many contributors you have, and who's more or less active. On GitHub, you can view this under "Insights" -> "Contributors." Right now, this graph only counts contributors who have committed to the default branch of the repository.
+* **Total de commits dels contribuents i nombre per contribuent:** Us indica quants contribuents teniu i qui és més o menys actiu. A GitHub, podeu veure això a "Insights" -> "Contributors". De moment, aquest gràfic només compta amb els contribuents que han fet commits a la branca per defecte del repositori.
 
 ![Contributor graph](/assets/images/metrics/repo_contributors_specific_graph.png)
 
-* **First time, casual, and repeat contributors:** Helps you track whether you're getting new contributors, and whether they come back. (Casual contributors are contributors with a low number of commits. Whether that's one commit, less than five commits, or something else is up to you.) Without new contributors, your project's community can become stagnant.
+* **Contribuents nous, ocasionals i repetits:** us permet fer un seguiment de si rebeu nous contribuents i si tornen. (Els contribuents ocasionals són contribuents amb un baix nombre de commits, ja sigui un commit, menys de cinc o els que siguin.) Sense nous contribuents, la comunitat del projecte pot quedar estancada.
 
-* **Number of open issues and open pull requests:** If these numbers get too high, you might need help with issue triaging and code reviews.
+* **Nombre de issues obertes i pull requests oberts:** Si aquestes xifres són massa elevades, és possible que necessitis ajuda per triar issues i revisar el codi.
 
-* **Number of _opened_ issues and _opened_ pull requests:** Opened issues means somebody cares enough about your project to open an issue. If that number increases over time, it suggests people are interested in your project.
+* **Nombre de issues _obertes_ i pull requests _oberts_ :** Issues obertes vol dir que algú es preocupa pel projecte quan obre una issue. Si aquesta xifra augmenta en el temps, suggereix que la gent està interessada en el projecte.
 
-* **Types of contributions:** For example, commits, fixing typos or bugs, or commenting on an issue.
+* **Tipus de contribucions:** Per exemple, commits, correcció d'errors ortogràfics o bugs, o comentant un problema.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/arfon?s=180" class="pquote-avatar" alt="avatar">
-  Open source is more than just code. Successful open source projects include code and documentation contributions together with conversations about these changes.
+  El codi obert és més que un codi. Els projectes de codi obert d'èxit inclouen codi i contribucions documentades, així com converses en relació a aquests canvis.
   <p markdown="1" class="pquote-credit">
 — @arfon, ["The Shape of Open Source"](https://github.com/blog/2195-the-shape-of-open-source)
   </p>
 </aside>
 
-## Maintainer activity
+## Activitat del mantenidor
 
-Finally, you'll want to close the loop by making sure your project's maintainers are able to handle the volume of contributions received. The last question you'll want to ask yourself is: _am I (or are we) responding to our community?_
+Per acabar, voldràs tancar el bucle assegurant que els mantenidors del projecte poden controlar el volum d'aportacions rebudes. L'última pregunta que voldràs preguntar és: _estic/estem preparat/s per respondre a la comunitat?_
 
-Unresponsive maintainers become a bottleneck for open source projects. If someone submits a contribution but never hears back from a maintainer, they may feel discouraged and leave.
+Els mantenidors no responsables esdevenen un coll d'ampolla per als projectes de codi obert. Si algú envia una contribució i no rep cap notícia d'un mantenidor, és possible que se senti desanimat i marxi.
 
-[Research from Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) suggests that maintainer responsiveness is a critical factor in encouraging repeat contributions.
+[Una investigació de Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) suggereix que la capacitat de resposta del mantenidor és un factor crític per fomentar les contribucions repetides.
 
 Consider tracking how long it takes for you (or another maintainer) to respond to contributions, whether an issue or a pull request. Responding doesn't require taking action. It can be as simple as saying: _"Thanks for your submission! I'll review this within the next week."_
 
@@ -127,6 +126,6 @@ You could also measure the time it takes to move between stages in the contribut
 * Whether stale issues get closed
 * Average time to merge a pull request
 
-## Use 📊 to learn about people
+## Fes servir 📊 per aprendre sobre les persones
 
 Understanding metrics will help you build an active, growing open source project. Even if you don't track every metric on a dashboard, use the framework above to focus your attention on the type of behavior that will help your project thrive.

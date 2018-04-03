@@ -1,6 +1,6 @@
 ---
 lang: ca
-title: Starting an Open Source Project
+title: Començant un projecte de codi obert
 description: Learn more about the world of open source and get ready to launch your own project.
 class: beginners
 toc:

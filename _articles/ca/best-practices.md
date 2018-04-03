@@ -1,10 +1,10 @@
 ---
 lang: ca
 title: Bones pràctiques per mantenidors de codi
-description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
+description: Fent-te la vida més fàcil com a mantenidor de codi obert, des del procés de documentació fins a treure el màxim profit a la teva comunitat.
 class: best-practices
 toc:
-  what-does-it-mean-to-be-a-maintainer: "What does it mean to be a maintainer?"
+  what-does-it-mean-to-be-a-maintainer: "Què significa ser mantenidor?"
   documenting-your-processes: "Documenting your processes"
   learning-to-say-no: "Learning to say no"
   leverage-your-community: "Leverage your community"

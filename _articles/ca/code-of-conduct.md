@@ -1,6 +1,6 @@
 ---
 lang: ca
-title: Your Code of Conduct
+title: El teu codi de conducta
 description: Facilitate healthy and constructive community behavior by adopting and enforcing a code of conduct.
 class: coc
 toc:

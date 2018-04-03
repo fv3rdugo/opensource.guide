@@ -8,7 +8,7 @@ toc:
   descobriment: "Descobriment"
   Ús: "Ús"
   retenció: "Retenció"
-  Activitat-del-mantenidor: "Activitat del mantenidor"
+  activitat-del-mantenidor: "Activitat del mantenidor"
 order: 9
 image: /assets/images/cards/metrics.png
 related:
@@ -58,7 +58,7 @@ Potser també vulguis [rastrejar com et descobreixen des de llocs específics](h
 
 ## Ús
 
-La gent està trobant el projecte en aquesta cosa boja i salvatge que anomenem Internet. 
+La gent està trobant el projecte en aquesta cosa boja i salvatge que anomenem Internet.
 L'ideal seria que quan vegin el projecte, se sentissin obligades a fer alguna cosa. La segona pregunta que ens farem serà: _està la gent utilitzant aquest projecte?_
 
 Si fas servir un gestor de paquets, com ara npm o Rubygems.org per distribuir el projecte, potser voldras rastrejar les descarregues.
@@ -117,15 +117,15 @@ Els mantenidors no responsables esdevenen un coll d'ampolla per als projectes de
 
 [Una investigació de Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) suggereix que la capacitat de resposta del mantenidor és un factor crític per fomentar les contribucions repetides.
 
-Consider tracking how long it takes for you (or another maintainer) to respond to contributions, whether an issue or a pull request. Responding doesn't require taking action. It can be as simple as saying: _"Thanks for your submission! I'll review this within the next week."_
+Pensa en la possibilitat de fer un seguiment del temps que trigues (tu o un altre mantenidor) a respondre a les contribucions, ja sigui una issue o un pull request. La resposta no requereix l'adopció de mesures. Pot ser tan simple com dir: _"Gràcies per la vostra aportació. Ho revisaré durant la setmana que ve."_
 
-You could also measure the time it takes to move between stages in the contribution process, such as:
+També pots mesurar el temps que trigues a moure't entre etapes del procés de contribució, com ara:
 
-* Average time an issue remains open
-* Whether issues get closed by PRs
-* Whether stale issues get closed
-* Average time to merge a pull request
+* Temps mitjà que una issue roman oberta
+* Si les issues es tanquen per PRs
+* Si les issues obsolets es tanquen
+* Temps mitjà per combinar un pull request
 
 ## Fes servir 📊 per aprendre sobre les persones
 
-Understanding metrics will help you build an active, growing open source project. Even if you don't track every metric on a dashboard, use the framework above to focus your attention on the type of behavior that will help your project thrive.
+La comprensió de les mètriques t'ajudarà a crear un projecte de codi obert actiu i creixent. Fins i tot si no feu el seguiment de totes les mètriques d'un tauler, utilitzeu el marc anterior per centrar la vostra atenció en el tipus de comportament que us ajudarà a millorar el vostre projecte.

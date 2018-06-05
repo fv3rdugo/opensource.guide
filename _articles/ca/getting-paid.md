@@ -57,7 +57,7 @@ El treball remunerat també habilita gent des de diferents camins de la vida a f
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/isaacs?s=180" class="pquote-avatar" alt="avatar">
-   OSS yields massive benefits to the technology industry, which, in turn, means benefits to all industries. (...) However, if the only people who can focus on it are the lucky and the obsessed, then there's a huge untapped potential.
+   OSS produeix beneficis massius a la indústria de la tecnologia, que, al seu torn, significa beneficis per a totes les indústries. (...) No obstant això, si les úniques persones que poden centrar-se en això són les afortunades i les obsessives, llavors hi ha un gran potencial sense explotar.
   <p markdown="1" class="pquote-credit">
 — @isaacs, ["Money and Open Source"](https://medium.com/open-source-life/money-and-open-source-d44a1953749c#.ftnd5qez0)
   </p>

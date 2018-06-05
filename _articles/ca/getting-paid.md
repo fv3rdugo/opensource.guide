@@ -1,13 +1,13 @@
 ---
 lang: ca
-title: Getting Paid for Open Source Work
-description: Sustain your work in open source by getting financial support for your time or your project.
+title: Rebre pagaments per treballs de codi obert
+description: Mantenint el vostre treball en codi obert obtenint suport financer per al vostre temps o el projecte.
 class: getting-paid
 toc:
-  why-some-people-seek-financial-support: "Why some people seek financial support"
-  funding-your-own-time: "Funding your own time"
-  finding-funding-for-your-project: "Finding funding for your project"
-  building-a-case-for-financial-support: "Building a case for financial support"
+  per-què-algunes-persones-busquen-suport-financer: "Per què algunes persones busquen suport financer"
+  finançant-el-teu-propi-temps: "Finançant el teu propi temps"
+  trobant-fons-per-al-projecte: "Trobant fons per al projecte"
+  la-construcció-dun-cas-per-al-suport-financer: "La construcció d'un cas per al suport financer"
 order: 7
 image: /assets/images/cards/getting-paid.png
 related:
@@ -15,45 +15,45 @@ related:
   - leadership
 ---
 
-## Why some people seek financial support
+## Per què algunes persones busquen suport financer
 
-Much of open source work is volunteered. For example, someone might come across a bug in a project they use and submit a quick fix, or they might enjoy tinkering with an open source project in their spare time.
+Bona part del treball de codi obert es voluntari. Per exemple, algú podria trobar un error en un projecte que utilitza i enviar una solució ràpida, o pot gaudir trastejant amb un projecte de codi obert en el seu temps lliure.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/gvanrossum?s=180" class="pquote-avatar" alt="avatar">
-I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. (...) I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately. (...) I chose Python as a working title.
+Estava buscant un projecte de programació com a  hobby que em mantindria ocupat durant la setmana al voltant del Nadal. (...) Vaig tenir un ordinador personal i no gaire més a les meves mans. Vaig decidir escriure un intèrpret per al nou llenguatge de scripts que havia estat pensant últimament. (...) Vaig triar Python com a títol del treball.
   <p markdown="1" class="pquote-credit">
 — @gvanrossum, ["Programming Python"](https://www.python.org/doc/essays/foreword/)
   </p>
 </aside>
 
-There are many reasons why a person would not want to be paid for their open source work.
+Hi ha moltes raons per les quals una persona no vol que es pagui pel seu treball de codi obert.
 
-* **They may already have a full-time job that they love,** which enables them to contribute to open source in their spare time.
-* **They enjoy thinking of open source as a hobby** or creative escape and don't want to feel financially obligated to work on their projects.
-* **They get other benefits from contributing to open source,** such as building their reputation or portfolio, learning a new skill, or feeling closer to a community.
+* **És possible que ja tingui una feina a temps complet que estimi,** que li permeti contribuir al codi obert en el seu temps lliure.
+* **Gaudeixe pensant en el codi obert com a hobby** o com una fugida creativa i no vol sentir-se obligada econòmicament a treballar en els seus projectes.
+* **Obté altres beneficis de contribuir al codi obert,** com ara construir la seva reputació o portfolio, aprendre una nova habilitat o sentir-se més a prop d'una comunitat.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/alloy?s=180" class="pquote-avatar" alt="avatar">
-  Financial donations do add a feeling of responsibility, for some. (...) It's important for us, in the globally connected, fast-paced world we live in, to be able to say "not now, I feel like doing something completely different".
+  Les donacions financeres afegeixen un sentiment de responsabilitat, per a alguns. (...) És important per a nosaltres, en el món connectat a escala mundial, en què vivim, per poder dir "no ara, tinc ganes de fer alguna cosa completament diferent".
   <p markdown="1" class="pquote-credit">
 — @alloy, ["Why We Don't Accept Donations"](https://blog.cocoapods.org/Why-we-dont-accept-donations/)
   </p>
 </aside>
 
-For others, especially when contributions are ongoing or require significant time, getting paid to contribute to open source is the only way they can participate, either because the project requires it, or for personal reasons.
+Per altres, especialment quant les contribucions estan en procés o requereixen un temps significatiu, rebre diners al contribuir al codi obert és la única forma en la que poden participar, perquè el projecte ho requereix o per raons personals.
 
-Maintaining popular projects can be a significant responsibility, taking up 10 or 20 hours per week instead of a few hours per month.
+Mantenir projectes populars pot ser una responsabilitat significativa, prenent de 10 a 20 hores per setmana en comptes d'unes poques al mes.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/ashedryden?s=180" class="pquote-avatar" alt="avatar">
-  Ask any open source project maintainer, and they will tell you about the reality of the amount of work that goes into managing a project. You have clients. You are fixing issues for them. You are creating new features. This becomes a real demand on your time.
+  Demanali a qualsevol responsable d'un projecte de codi obert, i t'informarà sobre la quantitat real de treball que es dedica a la gestió d'un project. Tens clients. Estàs solucionant issues per a ells. Creant noves funcionalitats. Això acaba sent una demanda real del teu temps.
   <p markdown="1" class="pquote-credit">
 — @ashedryden, ["The Ethics of Unpaid Labor and the OSS Community"](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community)
   </p>
 </aside>
 
-Paid work also enables people from different walks of life to make meaningful contributions. Some people cannot afford to spend unpaid time on open source projects, based on their current financial position, debt, or family or other caretaking obligations. That means the world never sees contributions from talented people who can't afford to volunteer their time. This has ethical implications, as @ashedryden [has described](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community), since work that is done is biased in favor of those who already have advantages in life, who then gain additional advantages based on their volunteer contributions, while others who are not able to volunteer then don't get later opportunities, which reinforces the current lack of diversity in the open source community.
+El treball remunerat també habilita gent des de diferents camins de la vida a fer contribucions significatives. Alguns no poden afrontar dedicar temps no remunerat a projectes de codi obert, ja sigui per la seva situació financiera, deutes, familiars o altres obligacions. Això significa que el mon mai veu contribucions de persones amb talent que no poden oferir el seu temps voluntariament. Aquestes implicacions étiques, com @ashedryden [ha descrit](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community), ja que el treball que es fa està esbiaixat a favor d'aquells que ja tenen avantatges en la vida, són qui llavors guanyen avantatges addicionals a partir de les seves contribucions voluntàries, mentre que d'altres que no són capaços de ser voluntaris no obtenen oportunitats més tard, la qual cosa reforça la actual manca de diversitat a la comunitat de codi obert.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/isaacs?s=180" class="pquote-avatar" alt="avatar">
@@ -63,11 +63,11 @@ Paid work also enables people from different walks of life to make meaningful co
   </p>
 </aside>
 
-If you're looking for financial support, there are two paths to consider. You can fund your own time as a contributor, or you can find organizational funding for the project.
+Si estàs cercant recolzament econòmic, hi ha dos camins a considerar. You can fund your own time as a contributor, or you can find organizational funding for the project.
 
-## Funding your own time
+## Finançant el teu propi temps
 
-Today, many people get paid to work part- or full-time on open source. The most common way to get paid for your time is to talk to your employer.
+Avui dia, molta gent cobra per treballs a temps parcial o complert en codi obert. La forma més habitual de cobrar pel teu temps és parlar amb l'empresa.
 
 It's easier to make a case for open source work if your employer actually uses the project, but get creative with your pitch. Maybe your employer doesn't use the project, but they use Python, and maintaining a popular Python project help attract new Python developers. Maybe it makes your employer look more developer-friendly in general.
 
@@ -87,17 +87,17 @@ Many companies are developing open source programs to build their brand and recr
 
 > It is closely aligned with our hacker culture, and how our organization was perceived. We asked our employees, "Were you aware of the open source software program at Facebook?". Two-thirds said "Yes". One-half said that the program positively contributed to their decision to work for us. These are not marginal numbers, and I hope, a trend that continues.
 
-If your company goes down this route, it's important to keep the boundaries between community and corporate activity clear. Ultimately, open source sustains itself through contributions from people all over the world, and that's bigger than any one company or location.
+Si la teva empresa va per aquest camí, és important mantenir clars els límits entre la comunitat i l'activitat corporativa. Darrerament, el codi obert es manté a si mateix amb contribucions de gent de tot el mon, i això és més gran que una empresa o ubicació.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/jessfraz?s=180" class="pquote-avatar" alt="avatar">
-  Getting paid to work on open source is a rare and wonderful opportunity, but you should not have to give up your passion in the process. Your passion should be why companies want to pay you.
+  Obtenir diners per treballar en codi obert és una oportunitat rara i meravellosa, però no hauria de deixa a banda la passió en el procés. La passió hauria de ser el per què les empreses et paguen a tu.
   <p markdown="1" class="pquote-credit">
 — @jessfraz, ["Blurred Lines"](https://blog.jessfraz.com/post/blurred-lines/)
   </p>
 </aside>
 
-If you can't convince your current employer to prioritize open source work, consider finding a new employer that encourages employee contributions to open source. Look for companies that make their dedication to open source work explicit. For example:
+Si no pots convèncer al teu actual responsable de prioritzar una feina en codi obert, considera trobar un capIf you can't convince your current employer to prioritize open source work, consider finding a new employer that encourages employee contributions to open source. Look for companies that make their dedication to open source work explicit. For example:
 
 * Some companies, like [Netflix](https://netflix.github.io/) or [PayPal](https://paypal.github.io/), have websites that highlight their involvement in open source
 * [Rackspace](https://www.rackspace.com/en-us) published its [open source contribution policy](https://blog.rackspace.com/rackspaces-policy-on-contributing-to-open-source/) for employees
@@ -109,7 +109,7 @@ Finally, depending on your personal circumstances, you can try raising money ind
 * @gaearon funded his work on [Redux](https://github.com/reactjs/redux) through a [Patreon crowdfunding campaign](https://redux.js.org/)
 * @andrewgodwin funded work on Django schema migrations [through a Kickstarter campaign](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
 
-## Finding funding for your project
+## Trobant fons per al projecte
 
 Beyond arrangements for individual contributors, sometimes projects raise money from companies, individuals, or others to fund ongoing work.
 
@@ -147,7 +147,7 @@ Some software foundations and companies offer grants for open source work. Somet
 
 For more detailed options and case studies, @nayafia [wrote a guide](https://github.com/nayafia/lemonade-stand) to getting paid for open source work. Different types of funding require different skills, so consider your strengths to figure out which option works best for you.
 
-## Building a case for financial support
+## La construcció d'un cas per al suport financer
 
 Whether your project is a new idea, or has been around for years, you should expect to put significant thought into identifying your target funder and making a compelling case.
 

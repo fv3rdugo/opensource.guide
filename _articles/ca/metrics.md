@@ -111,7 +111,7 @@ Alguns exemples de mètriques de la comunitat que voleu fer seguiment regularmen
 
 ## Activitat del mantenidor
 
-Per acabar, voldràs tancar el bucle assegurant que els mantenidors del projecte poden controlar el volum d'aportacions rebudes. L'última pregunta que voldràs preguntar és: _estic/estem preparat/s per respondre a la comunitat?_
+Per acabar, voldràs tancar el cercle assegurant que els mantenidors del projecte poden controlar el volum d'aportacions rebudes. L'última pregunta que voldràs preguntar és: _estic/estem preparat/s per respondre a la comunitat?_
 
 Els mantenidors no responsables esdevenen un coll d'ampolla per als projectes de codi obert. Si algú envia una contribució i no rep cap notícia d'un mantenidor, és possible que se senti desanimat i marxi.
 

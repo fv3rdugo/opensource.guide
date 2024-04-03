@@ -62,12 +62,16 @@ blockquote {
   line-height: 0;
 }
 
-.main-links a {
-  &:hover {
-    background: $bg-gray-light;
-    text-decoration: none;
-    color: $gray-dark;
+.main-links {
+  a {
+    &:hover {
+      background: $bg-gray-light;
+      text-decoration: none;
+      color: $gray-dark;
+    }
   }
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .breadcrumb {
@@ -245,4 +249,14 @@ blockquote {
 
 .form-select {
   -webkit-appearance: none;
+}
+
+*:lang(fa) {
+.article-body,
+ .lead,
+  h2,
+  p,
+  h3 {
+   direction: rtl;  /* Right to Left */
+  }
 }
